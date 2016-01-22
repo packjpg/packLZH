@@ -180,15 +180,15 @@ INTERN int lzh_blocksize 	= ( 1 << 16 ); // size of one LZH block
 	----------------------------------------------- */
 
 INTERN const unsigned char appversion = 5;
-INTERN const char*  subversion   = "";
+INTERN const char*  subversion   = "a";
 INTERN const char*  apptitle     = "packLZH";
 INTERN const char*  appname      = "packLZH";
-INTERN const char*  versiondate  = "03/18/2014";
+INTERN const char*  versiondate  = "01/22/2016";
 INTERN const char*  author       = "Matthias Stirner";
 #if !defined(BUILD_LIB)
-INTERN const char*  website      = "http://www.elektronik.htw-aalen.de/packjpg/";
-INTERN const char*  email        = "packjpg (at) htw-aalen.de";
-INTERN const char*	copyright    = "2012-2014 Matthias Stirner & HTW Aalen";
+INTERN const char*  website      = "http://packjpg.encode.ru/";
+INTERN const char*  email        = "packjpg (at) matthiasstirner.com";
+INTERN const char*	copyright    = "2012-2016 Matthias Stirner & HTW Aalen";
 INTERN const char*  cmp_ext      = "plz";
 INTERN const char*  unc_ext      = "unc";
 #endif
